@@ -14,3 +14,12 @@ class Piece {
 
     }
 }
+class chessBoard {
+    constructor() {
+        this.board = this.createBoard();
+    }
+
+    createBoard() {
+        
+    };
+}
