@@ -5,6 +5,17 @@ class Position {
     }
 }
 
+
+class Player {
+    constructor(name , color) {
+        this.name  = name ; 
+        this.color  = color  ;
+    }
+    makeMove(Piece,Position) { 
+        
+    }
+}
+
 class Piece {
     constructor(position, color) {
         this.position = position;
